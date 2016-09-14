@@ -60,3 +60,4 @@ fabric.properties
 
 /.idea/
 /spring-boot-journal.iml
+/target/
