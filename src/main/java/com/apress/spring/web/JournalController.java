@@ -23,7 +23,7 @@ public class JournalController {
         return "index";
     }
 
-    @RequestMapping(value = "/jorunal", produces = {MediaType.APPLICATION_JSON_UTF8_VALUE})
+    @RequestMapping(value = "/journal", produces = {MediaType.APPLICATION_JSON_UTF8_VALUE})
     public @ResponseBody List<Journal> getJournal(){
         return repo.findAll();
     }
